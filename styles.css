@@ -165,6 +165,9 @@ body{
   padding: 20px;
   
 }
+.card-right{
+    margin-left: -50px;
+}
 
 .card p{
     font-size: 14px;
@@ -189,81 +192,48 @@ body{
  
 }
 
-.ann-trend h3{
-    margin-left: 30px;
+
+.announcement h3{
     margin-top: 20px;
-  }
-.announcement{
-    width: 80%;
-    height: 330px;
-    display: flex;
-    margin-top: 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    border-radius: 10px;
-    padding: 5px;
-    margin-left: 10px;
+   
 }
-
-
-
-.ann-card p{
-    font-size: 14px;
-    color: #d4d4d4;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    
-}
-.ann-card h4{
-    margin-left: 20px;
-    font-weight: bold;
-}
-
-
 
 .divider{
-    display: flex;
     width: 80%;
-    border: 0.5px solid lightgray;
     margin-left: 20px;
-    margin-bottom: 15px;
+    border: 0.5px solid #737373;
 }
-.trend{
+
+.ann-card,.trend-card{
     width: 80%;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    height: 80%;
     background-color: white;
-    margin-left: 10px;
+    border-radius: 10px;  
     margin-top: 20px;
-    border-radius: 10px;
+    margin-left: -20px;
     padding: 5px;
 }
 
-.trend-card{
-    display: flex;
-}
-.trend-card img{
-    margin-left: 20px;
-    width: 60px;
-    padding: 5px;
+.ann-text,.trend-text {
+    padding: 10px 20px;
 }
 
-.trend-text{
-    margin-left: 20px;
+.ann-text h4{
     font-size: 16px;
 }
-.trend-text h4{
-    color:#d4d4d4; 
+
+.ann-text p,.trend-text p{
+    font-size: 14px;
+    margin-top: 5px;
+    color: #d4d4d4;
+    
+    
 }
 
-.disc{
-    margin-left: 30px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+.trend-img-text{
+    display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 10px 10px;
+    
 }
